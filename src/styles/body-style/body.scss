@@ -1,0 +1,69 @@
+.div-textbox {
+
+    display: flex;
+    justify-content: center;
+    background-color: #d08b0a;
+    padding: 25px;
+
+
+
+    .search-box {
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 25rem;
+        height: 2rem;
+        border: 0.4rem solid #000000;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        background-color: #ffe5b5;
+        font-size: 1rem;
+
+
+
+    }
+
+}
+
+.div-list {
+
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+
+    .title-list {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    ul {
+
+        justify-content: center;
+        text-align: center;
+
+        li {
+            list-style-type: none;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-size: 2rem;
+            color: #646464;
+            padding: 5px;
+        }
+
+    }
+
+    .error-message{
+        list-style-type: none;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #646464;
+        padding: 5px;
+    }
+}
